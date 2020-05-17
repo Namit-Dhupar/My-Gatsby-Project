@@ -22,7 +22,7 @@ const CustomNavbar = () => {
   `)
  return (
     <>
-      <Navbar bg="light" expand="lg" id="site-navbar">
+      <Navbar bg="white" expand="lg" id="site-navbar">
         {/* <Container> */}
         <Link to="/" className="link-no-style">
           <Navbar.Brand as="span"> 

@@ -30,12 +30,12 @@ export default function Blogpage(props) {
     return (
     <Layout pageInfo={{ pageName: {pageInfo} }}>
     <SEO title={seoTitle} />
-    <div className="blog-post-container">
+        <div className="blog-post-container">
         <article className="post">
         <div className="post-thumbnail" style={getStyle()}>
         <h1 className="post-title">{title}</h1>
        </div>
-            <div className="blog-post-content">
+            <div>
               <MDXRenderer>{props.data.mdx.body}</MDXRenderer>
             </div>
         </article>

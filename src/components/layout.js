@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col} from "react-bootstrap"
 import Navbar from "./navBar"
 
 const Layout = ({ children, pageInfo }) => (
@@ -36,7 +36,7 @@ const Layout = ({ children, pageInfo }) => (
             <Col className="footer-col">
               <footer>
                 <span>
-                  © {new Date().getFullYear()}
+                  © Copyright {new Date().getFullYear()} - SBL Computer Education
                 </span>
               </footer>
             </Col>

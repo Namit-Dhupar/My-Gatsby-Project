@@ -10,15 +10,9 @@ resizable: false
 import {Container, Col, Row, Image} from "react-bootstrap";
 import {Divider} from "theme-ui";
 
+## FOUNDER'S MESSAGE
 
-
-<div style={{textAlign: 'center'}}>
-
-  ## FOUNDER'S MESSAGE
-</div>  
-  
-
-<Container>
+<Container style={{marginTop: '3rem'}}>
 <Row>
     <Col sm={4}>
    <Image src="https://imgur.com/PzgqYDw.jpg" thumbnail />
@@ -48,10 +42,7 @@ Founder, SBL
 
 <Divider />
 
-<div style={{textAlign: 'center'}}>
-
 ## VISION
- </div> 
 
 #### Computer Literacy
  

@@ -1,5 +1,5 @@
 ---
-title: ''
+title: AWARENESS IN COMPUTER CONCEPTS(ACC)
 pageInfo: ACC
 seoTitle: ACC | SBL
 thumbnail: https://i.imgur.com/gbz8bUf.jpg
@@ -50,7 +50,7 @@ No minimum qualification is required for applying and appearing for the examinat
 ## Course Contents / Syllabus
 </Col>
 
-<Col lg={4} md={6} sm={8} xs={12} className='course-card'>
+<Col lg={4} md={6} sm={8} xs={12} >
  <Card border="secondary" style={{ width: '18rem' }}>
   <Card.Header>
 
@@ -74,7 +74,7 @@ No minimum qualification is required for applying and appearing for the examinat
   </Card>
   <br />
 </Col>
-<Col lg={4} md={6} sm={8} xs={12} className='course-card'>
+<Col lg={4} md={6} sm={8} xs={12} >
  <Card border="secondary" style={{ width: '18rem' }}>
   <Card.Header>
 
@@ -99,7 +99,7 @@ No minimum qualification is required for applying and appearing for the examinat
   <br />
 </Col>
 
-<Col lg={4} md={6} sm={8} xs={12} className='course-card'>
+<Col lg={4} md={6} sm={8} xs={12} >
  <Card border="secondary" style={{ width: '18rem' }}>
   <Card.Header>
 
@@ -124,7 +124,7 @@ No minimum qualification is required for applying and appearing for the examinat
   <br />
 </Col>
 
-<Col lg={4} md={6} sm={8} xs={12} className='course-card'>
+<Col lg={4} md={6} sm={8} xs={12} >
  <Card border="secondary" style={{ width: '18rem' }}>
   <Card.Header>
 
@@ -149,7 +149,7 @@ No minimum qualification is required for applying and appearing for the examinat
   <br />
 </Col>
 
-<Col lg={4} md={6} sm={8} xs={12} className='course-card'>
+<Col lg={4} md={6} sm={8} xs={12} >
  <Card border="secondary" style={{ width: '18rem' }}>
   <Card.Header>
 

@@ -41,7 +41,7 @@ const Layout = ({ children, pageInfo }) => (
               <Col sm={4}>
               <Image src="https://imgur.com/IFGVuO6.jpg"/>
               </Col>
-              <Col sm={8}>
+              <Col lg={8} md={12}>
              <p>
              At SBL Computer Education, we aim to pursue excellence and provide equal opportunities to irrespective of cost creed and religion.
              We also aim to center to needs of the students especially physically challenged ones to literate them in Computer Education Giving accessibility and Platform to

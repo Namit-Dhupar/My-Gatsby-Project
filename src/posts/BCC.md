@@ -47,7 +47,7 @@ In step with effort to achieve the objective of achieving computer literacy in a
 The candidates can appear in the NIELIT BCC Examination either through NIELIT approved Institutes which are permitted to conduct BCC Course and having obtained E-Provisional no. / Registration no. or as Direct applicant irrespective of any educational qualifications.
 
 <Container>
-<Row>
+<Row className="justify-content-center">
 <Col sm={12}>
 
 ## Course Contents / Syllabus

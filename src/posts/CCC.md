@@ -1,5 +1,5 @@
 ---
-title: This is CCC Page
+title: CCC & CCC-Plus
 pageInfo: CCC
 seoTitle: CCC | SBL
 thumbnail: https://imgur.com/BFPrT5J.jpg
@@ -51,7 +51,7 @@ peers;
 Candidates sponsored by Government recognized Schools/Colleges having obtained an Unique Identity number from NIELIT for conducting CCC
 
 <Container>
-<Row>
+<Row className="justify-content-center">
 <Col sm={12}>
 
 ## Course Contents / Syllabus
@@ -293,7 +293,7 @@ and be aware of the various schemes of Government of India.
 Candidate should be metric pass or above.
 
 <Container>
-<Row>
+<Row className="justify-content-center">
 <Col sm={12}>
 
 ## Course Contents / Syllabus

@@ -44,7 +44,7 @@ By undergoing the Awareness in Computer Concepts (ACC), one should be able to ac
 No minimum qualification is required for applying and appearing for the examination in course on Awareness of Computer Concepts (ACC).
 
 <Container>
-<Row>
+<Row className="justify-content-center">
 <Col sm={12}>
 
 ## Course Contents / Syllabus
@@ -91,6 +91,7 @@ No minimum qualification is required for applying and appearing for the examinat
 - File and Folder Management
 - Types of File Extensions
 - Interaction with OS
+- Summary
 
 
  </Card.Text>

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap');
+$background: #fffffb;
+$accent: #ff6b6c;
+$otherAccent: #ffc145;
+$darkBackground: #5b5f97;
+$greenAccent: #7bc043;
+$glamourAccent: #851e3e;
+$webIAccent: #009688;
+$webIIAccent: #283655;
+
+.course-card {
+  padding: 2rem;
+}
+
+/***************FUNDAMENTAL COURSE*****************/
+#course-container {
+  font-family: 'Sriracha', arial, sans-serif;
+  height: 450px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 5px;
+  background: $background;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  .funda-img {
+    height: 100px;
+    width: 100px;
+    background: url('https://image.shutterstock.com/image-illustration/computer-mobility-internet-communication-cloud-260nw-108864086.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+  .dtp-img {
+    height: 100px;
+    width: 100px;
+    background: url("https://lifewire.com/thmb/StJ16amntk5St1gbsk474M9kcqY=/1500x1000/filters:fill(auto,1)/EP_WhatisDesktopPublishing_Final-fcf04d7ee7cc4167bef825dbf0f8f953.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+  .fin-img {
+    height: 100px;
+    width: 100px;
+    background: url("https://5.imimg.com/data5/FY/NH/JA/SELLER-11988338/gst-ready-accounting-erp-software-500x500.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+  .multi-img {
+    height: 100px;
+    width: 100px;
+    background: url("https://naarayanatechnologies.com/wp-content/uploads/2018/07/multimedia.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+  .cca-img {
+    height: 100px;
+    width: 100px;
+    background: url("https://mindlercareerlibrarynew.imgix.net/shutterstock_284316539_CL.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+  .webi-img {
+    height: 100px;
+    width: 100px;
+    background: url("https://www.websuresolutions.com/blog/wp-content/uploads/2018/05/Web-development-designing-Anvar-Freelancer-1.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+  .webii-img {
+    height: 100px;
+    width: 100px;
+    background: url("https://www.dbswebsite.com/wp-content/uploads/b2b-web-design-examples.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+
+  h1 {
+    font-family: 'Sriracha', arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .funda {
+    color: $accent;
+  }
+
+  .dtp {
+    color: $otherAccent;
+  }
+
+  .fin {
+    color: $darkBackground;
+  }
+
+  .multi {
+    color: $greenAccent;
+  }
+  .cca {
+    color: $glamourAccent;
+  }
+  .webi {
+    color: $webIAccent;
+  }
+  .webii {
+    color: $webIIAccent;
+  }
+
+  .description{
+    margin-bottom: 20px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    padding: 0 20px;
+    margin-left: -20px;
+    margin-top: 2rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   }
+   .funda-footer{
+    background: $accent;
+   }
+   .dtp-footer{
+    background: $otherAccent;
+   }
+   .fin-footer{
+    background: $darkBackground;
+   }
+   .multi-footer{
+    background: $greenAccent;
+   }
+   .cca-footer{
+    background: $glamourAccent;
+   }
+   .webi-footer{
+    background: $webIAccent;
+   }
+   .webii-footer{
+    background: $webIIAccent;
+   }
+}
+
+@-webkit-keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+  // 100% {
+  //   background-position: 0% 50%;
+  // }
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+  // 100% {
+  //   background-position: 0% 50%;
+  // }
+}
+

@@ -10,7 +10,10 @@ resizable: true
 import {Container, Col, Row, Card} from "react-bootstrap";
 import {Divider} from "theme-ui";
 
-## OVERVIEW
+<section id="Overview">
+
+## Overview
+</section>
 
 ### Objective
 
@@ -50,7 +53,10 @@ The candidates can appear in the NIELIT BCC Examination either through NIELIT ap
 <Row className="justify-content-center">
 <Col sm={12}>
 
-## Course Contents / Syllabus
+<section id="Course Contents">
+
+## Course Contents
+</section>
 </Col>
 
 <Col lg={4} md={6} sm={8} xs={12}>

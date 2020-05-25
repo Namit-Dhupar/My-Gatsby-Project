@@ -10,7 +10,10 @@ resizable: false
 import {Container, Col, Row, Image} from "react-bootstrap";
 import {Divider} from "theme-ui";
 
-## FOUNDER'S MESSAGE
+<section id="Founder's Message">
+
+## Founder's Message
+</section>
 
 <Container style={{marginTop: '3rem'}}>
 <Row>
@@ -41,8 +44,10 @@ Founder, SBL
 </Container>
 
 <Divider />
+<section id="Vision">
 
-## VISION
+## Vision
+</section>
 
 #### Computer Literacy
  

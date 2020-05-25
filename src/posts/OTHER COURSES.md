@@ -7,14 +7,17 @@ id: 6
 resizable: false
 ---
 
-import {Container, Col, Row, Card} from "react-bootstrap";
+import {Container, Col, Row, Card, Table} from "react-bootstrap";
 import {Divider} from "theme-ui";
 
 <Container>
 <Row>
 <Col lg={12} sm={12}>
 
-## We Also Provide Coaching In:
+<section id="Independent Courses">
+
+## Independent Courses
+</section>
 <Divider />
 
 </Col>
@@ -182,7 +185,10 @@ import {Divider} from "theme-ui";
 <Row>
 <Col sm={12}>
 
+<section id="Web Designing Course">
+
 ## Web Designing Course
+</section>
 <Divider />
 
 </Col>
@@ -257,7 +263,10 @@ import {Divider} from "theme-ui";
 <Row>
 <Col sm={12}>
 
+<section id="Crash Courses Offered">
+
 ## Crash Courses Offered
+</section>
 <Divider />
 
 </Col>
@@ -268,11 +277,67 @@ import {Divider} from "theme-ui";
 <Row className="justify-content-center">
 <Col sm={12}>
 <Card>
-    <Card.Img variant="top" style={{height: "300px"}} src="https://miro.medium.com/max/10000/1*HLGtY6O2vUHqIyEbWdmBgA.jpeg" />
+    <Card.Img variant="top" style={{height: "350px"}} src="https://www.ravepubs.com/wp-content/uploads/2017/02/corporate-culture-0217.jpg" />
     <Card.Body>
       <Card.Text>
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
+       <Table striped bordered hover>
+  <thead>
+    <tr>
+      <th>Course Name</th>
+      <th>Duration</th>
+     </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C Programming</td>
+      <td>2 Months</td>
+   </tr>
+    <tr>
+      <td>C & CS</td>
+      <td>4 Months</td>
+    </tr>
+    <tr>
+      <td>C++ Programming</td>
+      <td>3 Months</td>
+    </tr>
+     <tr>
+      <td>Core Java</td>
+      <td>2.5 Months</td>
+    </tr>
+    <tr>
+      <td>Advanced Java(Servlet/JSP/JDBC)</td>
+      <td>3 Months</td>
+    </tr>
+    <tr>
+      <td>Visual Basic</td>
+      <td>3 Months</td>
+    </tr>
+    <tr>
+      <td>Visual Basic Script</td>
+      <td>2 Months</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
+      <td>2 Months</td>
+    </tr>
+    <tr>
+      <td>SQL</td>
+      <td>1 Month</td>
+    </tr>
+    <tr>
+      <td>Visual Basic</td>
+      <td>3 Months</td>
+    </tr>
+    <tr>
+      <td>English Speaking</td>
+      <td>3 Months</td>
+    </tr>
+    <tr>
+      <td>Oracle</td>
+      <td>3 Months</td>
+    </tr>
+  </tbody>
+</Table>
       </Card.Text>
     </Card.Body>
   </Card>

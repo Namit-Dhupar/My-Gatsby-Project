@@ -28,6 +28,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.6.1",
+    "react-scroll-to-element": "^0.2.0",
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {

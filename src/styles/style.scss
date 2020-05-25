@@ -12,6 +12,7 @@ body {
   background-color: #f8f8f8;;
   color: var(--text-color);
 }
+
 .post {
   padding: 0;
   background:var(--background);
@@ -87,4 +88,20 @@ h3{
 
 h4{
   margin-top: 2rem;
+}
+
+.breadcrum{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  a {
+    color: white;
+  }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: white;
+  content: "/";
 }

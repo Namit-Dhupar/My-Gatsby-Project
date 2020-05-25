@@ -10,7 +10,10 @@ resizable: true
 import {Container, Col, Row, Card} from "react-bootstrap";
 import {Divider} from "theme-ui";
 
-## OVERVIEW
+<section id="Overview">
+
+## Overview
+</section>
 
 ### Objective
 
@@ -43,11 +46,16 @@ By undergoing the Awareness in Computer Concepts (ACC), one should be able to ac
 <Divider /> 
 No minimum qualification is required for applying and appearing for the examination in course on Awareness of Computer Concepts (ACC).
 
+
 <Container>
 <Row className="justify-content-center">
 <Col sm={12}>
 
-## Course Contents / Syllabus
+<section id="Course Contents">
+
+## Course Contents
+
+</section>
 </Col>
 
 <Col lg={4} md={6} sm={8} xs={12} >

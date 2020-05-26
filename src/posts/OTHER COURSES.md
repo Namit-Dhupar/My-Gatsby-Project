@@ -3,7 +3,7 @@ title: Other Courses offered
 pageInfo: Other Courses
 seoTitle: Other Courses | SBL
 thumbnail: https://imgur.com/DsLx87X.jpg
-id: 6
+id: 7
 resizable: false
 ---
 
@@ -185,9 +185,9 @@ import {Divider} from "theme-ui";
 <Row>
 <Col sm={12}>
 
-<section id="Web Designing Course">
+<section id="Web Designing">
 
-## Web Designing Course
+## Web Designing
 </section>
 <Divider />
 
@@ -263,9 +263,9 @@ import {Divider} from "theme-ui";
 <Row>
 <Col sm={12}>
 
-<section id="Crash Courses Offered">
+<section id="Crash Courses">
 
-## Crash Courses Offered
+## Crash Courses
 </section>
 <Divider />
 

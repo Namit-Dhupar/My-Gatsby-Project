@@ -25,8 +25,6 @@ query($slug: String!) {
 `
 export default function Blogpage(props) {
     const {title, pageInfo, seoTitle, thumbnail, resizable} = props.data.mdx.frontmatter;
-    console.log(props.data.mdx.headings);
-    //const { value } = props.data.mdx.headings;
     const getStyle = () =>{
       return{
         backgroundImage: `url(${thumbnail})`,

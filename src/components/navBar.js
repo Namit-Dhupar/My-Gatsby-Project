@@ -22,14 +22,14 @@ const CustomNavbar = () => {
   `)
  return (
     <>
-      <Navbar bg="white" expand="lg" id="site-navbar">
+      <Navbar expand="lg" id="site-navbar">
         {/* <Container> */}
         <Link to="/" className="link-no-style">
           <Navbar.Brand as="span"> 
           <img src={data.logo.publicURL} alt="my logo" />
           </Navbar.Brand>
         </Link>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" bg="white" />
         <Navbar.Collapse id="basic-navbar-nav">
           {data.allMdx.edges.map((edge) => {
           const { slug } = edge.node.fields;

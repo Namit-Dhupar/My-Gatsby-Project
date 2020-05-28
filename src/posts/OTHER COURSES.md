@@ -14,9 +14,9 @@ import {Divider} from "theme-ui";
 <Row>
 <Col lg={12} sm={12}>
 
-<section id="Independent Courses">
+<section id="Professional Courses">
 
-## Independent Courses
+## Professional Courses
 </section>
 <Divider />
 
@@ -277,7 +277,7 @@ import {Divider} from "theme-ui";
 <Row className="justify-content-center">
 <Col sm={12}>
 <Card>
-    <Card.Img variant="top" style={{height: "350px"}} src="https://www.ravepubs.com/wp-content/uploads/2017/02/corporate-culture-0217.jpg" />
+    <Card.Img variant="top" style={{height: "350px"}} src="https://i.ytimg.com/vi/RU1u-js7db8/maxresdefault.jpg" />
     <Card.Body>
       <Card.Text>
        <Table striped bordered hover>

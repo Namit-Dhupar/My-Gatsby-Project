@@ -2,7 +2,7 @@
 title: CCC-Plus
 pageInfo: CCC-Plus
 seoTitle: CCC-Plus | SBL
-thumbnail: https://imgur.com/BFPrT5J.jpg
+thumbnail: https://londoninformaticsacademy.com/wp-content/uploads/2018/04/Online-Computer-Courses.jpg
 id: 5
 resizable: true
 ---
@@ -34,7 +34,7 @@ and be aware of the various schemes of Government of India.
 ### Course Duration
 
 <Divider /> 
-6 Month
+6 Months
 
 ### Course Fee
 

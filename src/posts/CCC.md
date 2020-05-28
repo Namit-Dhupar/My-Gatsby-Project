@@ -2,7 +2,7 @@
 title: CCC
 pageInfo: CCC
 seoTitle: CCC | SBL
-thumbnail: https://imgur.com/BFPrT5J.jpg
+thumbnail: https://londoninformaticsacademy.com/wp-content/uploads/2018/04/Online-Computer-Courses.jpg
 id: 4
 resizable: true
 ---
@@ -35,7 +35,7 @@ peers;
 ### Course Duration
 
 <Divider /> 
-2 Month
+2 Months
 
 ### Course Fee
 

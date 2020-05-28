@@ -2,7 +2,7 @@
 title: AWARENESS IN COMPUTER CONCEPTS(ACC)
 pageInfo: ACC
 seoTitle: ACC | SBL
-thumbnail: https://i.imgur.com/gbz8bUf.jpg
+thumbnail: https://londoninformaticsacademy.com/wp-content/uploads/2018/04/Online-Computer-Courses.jpg
 id: 2
 resizable: true
 ---
@@ -99,7 +99,6 @@ No minimum qualification is required for applying and appearing for the examinat
 - File and Folder Management
 - Types of File Extensions
 - Interaction with OS
-- Summary
 
 
  </Card.Text>

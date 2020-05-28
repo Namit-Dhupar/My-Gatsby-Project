@@ -2,7 +2,7 @@
 title: Basic Computer Course(BCC)
 pageInfo: BCC
 seoTitle: BCC | SBL
-thumbnail: https://imgur.com/kyo4REP.jpg
+thumbnail: https://londoninformaticsacademy.com/wp-content/uploads/2018/04/Online-Computer-Courses.jpg
 id: 3
 resizable: true
 ---
@@ -32,7 +32,7 @@ In step with effort to achieve the objective of achieving computer literacy in a
 ### Course Duration
 
 <Divider /> 
-2 Month
+2 Months
 
 ### Course Fee
 

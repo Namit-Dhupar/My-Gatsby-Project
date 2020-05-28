@@ -25,6 +25,7 @@ import {Divider} from "theme-ui";
   
 Dear Students,
   </div>
+  <i>
   In this digital age where everything is just a click away it is really imperative to be computer literate,
 
   SBL Computer Education is such an institution where I take all possible steps to ensure to give best of faculty facilities and infrastructure to the students short and long term courses give ample scope, skills and talents.
@@ -35,9 +36,13 @@ Dear Students,
 
   I hope the follow pages will give you an insight into the life and achievement of SBLComputer      Education.
 
-  I thank god for his blessings.
+  I thank god for his blessings. 
   
-  **late Eshu Sharma**<br />
+  </i>
+  
+
+**late Eshu Sharma**<br />
+
 Founder, SBL
    </Col>
    </Row>

@@ -82,11 +82,11 @@ const Layout = ({ children, pageInfo }) => (
                   357 First Floor, FA-357, Radhey Shyam Mandir Marg, Block FA, Mansarover Garden, New Delhi, Delhi 110015
                   </p>
                 </Col>
-                <span class="copy">© Copyright - 2020 SBL Computer Education</span>
+                <span className="copy">© Copyright - 2020 SBL Computer Education</span>
             </Row>
             <Row className="justify-content-center"><br />
             <Scroll type="id" element="thetop">
-              <button class="button button4">Top</button>
+              <button className="button button4">Top</button>
             </Scroll> 
             </Row>
             </Container>

@@ -12,6 +12,9 @@ const CustomNavbar = () => {
             fields {
               slug
             }
+            frontmatter {
+              id
+            }
           }
         }
       }
@@ -34,7 +37,7 @@ const CustomNavbar = () => {
           {data.allMdx.edges.map((edge) => {
           const { slug } = edge.node.fields;
           return(
-            <Nav className="mr-auto">
+          <Nav className="mr-auto" key = { edge.node.frontmatter.id }>
             <Link to={`/${slug}`} className="link-no-style">
               <Nav.Link as="span">
                {slug}

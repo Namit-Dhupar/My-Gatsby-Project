@@ -15,6 +15,7 @@ query($slug: String!) {
        seoTitle
        thumbnail
        resizable
+       id
   }
   body
   headings(depth: h2) {
@@ -39,11 +40,11 @@ export default function Blogpage(props) {
         <div className="post-thumbnail" style={getStyle()}>
         <h1 className="post-title">{title}</h1>
       
-      <div class="breadcrum">
+      <div className="breadcrum">
         {props.data.mdx.headings.map((inlink) => {
           const { value } = inlink;
           return( 
-           <Scroll type="id" element={`${value}`}>
+           <Scroll key={`${value}`} type="id" element={`${value}`}>
            <Breadcrumb.Item href="#">{value}</Breadcrumb.Item>
            </Scroll>
           );

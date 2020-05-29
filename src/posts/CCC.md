@@ -1,5 +1,5 @@
 ---
-title: CCC
+title: Course On Computer Concepts(CCC)
 pageInfo: CCC
 seoTitle: CCC | SBL
 thumbnail: https://londoninformaticsacademy.com/wp-content/uploads/2018/04/Online-Computer-Courses.jpg

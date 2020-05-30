@@ -4,6 +4,8 @@ import { Container, Row, Col, Image } from "react-bootstrap"
 import Navbar from "./navBar"
 import {Divider} from "theme-ui"
 import Scroll from '../components/Scroll';
+import { FaHome, FaPhoneAlt } from 'react-icons/fa';
+import { MdEmail } from "react-icons/md";
 
 const Layout = ({ children, pageInfo }) => (
   <StaticQuery
@@ -78,9 +80,11 @@ const Layout = ({ children, pageInfo }) => (
                   Institute Address
                   <Divider />
                   <br />
-                  <p>
-                  357 First Floor, FA-357, Radhey Shyam Mandir Marg, Block FA, Mansarover Garden, New Delhi, Delhi 110015
-                  </p>
+                  <ul style={{listStyleType: "none"}}>
+                  <li style={{marginBottom: "5px"}}><FaHome />&nbsp;&nbsp; 357 First Floor, FA-357, Radhey Shyam Mandir Marg, Block FA, Mansarover Garden, New Delhi, Delhi 110015</li>
+                  <li style={{marginBottom: "5px"}}><FaPhoneAlt />&nbsp;&nbsp;011-2593 6787</li>
+                  <li style={{marginBottom: "5px"}}><MdEmail />&nbsp;&nbsp;eshu.sharma@gmail.com</li>
+                  </ul>
                 </Col>
                 <span className="copy">© Copyright - 2020 SBL Computer Education</span>
             </Row>

@@ -33,57 +33,53 @@ import { Divider } from "theme-ui";
 
 ### GST Using Tally.ERP 9
 
+**Duration: 45 Hours** 
 
-<Tabs onSelect={(index, label) => console.log(label + ' selected')}>
-<Tab label="Overview">
-    <Card border="secondary">
-    <Card.Header>
-    Duration: 45 Hours
-    </Card.Header>
-    <Card.Body>
-    <Card.Title> 
-    
 
-**Course Information**
+<div className="layout">
+<input name="nav" type="radio" className="nav overview-radio" id="overview" defaultChecked />
+<div className="page overview-page" style={{ backgroundColor: "#ffffff" }}>
+<div className="page-contents">
+<br/>  
 
-    
-   </Card.Title>
-    <Card.Text>
 
+#### Course Information
+
+
+It is designed to aid the certified candidates understanding the concepts of Goods & Services Tax(GST) compliant records using Tally covering their ability to:
  
-  It is designed to aid the certified candidates understanding the concepts of Goods & Services Tax(GST) compliant records using Tally covering their ability to:
- 
- - Introduction to GST
- - Basic & Advanced concepts of GST
- - Getting started with GST (Goods)
- - Accouting of exports & imports transaction
- - Accounting of exempted & SE2 transactions
- - Accounting of advanced reciepts & payments
- - Accounting of reverse change transactions
- - Input credit Set off
- - Generating GST Reports
- - Filling of error free returns
+
+- Introduction to GST
+- Basic & Advanced concepts of GST
+- Getting started with GST (Goods)
+- Accouting of exports & imports transaction
+- Accounting of exempted & SE2 transactions
+- Accounting of advanced reciepts & payments
+- Accounting of reverse change transactions
+- Input credit Set off
+- Generating GST Reports
+- Filling of error free returns
 
 
+  </div>
+  </div>
+  <label className="nav" for="overview">
+    <span>
+      <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" className="css-i6dzq1"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+      Overview
+    </span>
+  </label>
 
-   </Card.Text>
-   </Card.Body>
-   </Card>
-</Tab>
+  <input name="nav" type="radio" className="about-scope" id="scope" />
+  <div className="page scope-page" style={{ backgroundColor: "#ffffff" }}>
+    <div className="page-contents">
+ <br/>
 
-<Tab label="Scope">
-<Card border="secondary">
-  <Card.Header>
-    Duration: 45 Hours
-  </Card.Header>
-  <Card.Body>
-    <Card.Title>
+#### Scope
 
-**Scope** 
 
-  </Card.Title>
-    <Card.Text>
-      <Table striped bordered hover>
+</div>
+<Table className="tab-table" striped bordered hover>
   <thead>
     <tr>
       <th>Module</th>
@@ -97,32 +93,33 @@ import { Divider } from "theme-ui";
    </tr>    
   </tbody>
 </Table>
-    </Card.Text>
-   </Card.Body>
-</Card>
-</Tab>
-</Tabs>
+  </div>
+  <label className="nav" for="scope">
+    <span>
+    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" className="css-i6dzq1"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg>
+    Scope
+      </span>
+    </label>
+</div>
+
+
 
 ### TallyACE
 
-<Tabs onSelect={(index, label) => console.log(label + ' selected')}>
-<Tab label="Overview">
-    <Card border="secondary">
-    <Card.Header>
-    Duration: 60 Hours
-    </Card.Header>
-    <Card.Body>
-    <Card.Title> 
-    
+**Duration: 60 Hours** 
 
-**Course Information**
 
-    
-   </Card.Title>
-    <Card.Text>
+<div className="layout">
+<input name="navace" type="radio" className="nav overviewace-radio" id="overviewace" defaultChecked />
+<div className="page overviewace-page" style={{ backgroundColor: "#ffffff" }}>
+<div className="page-contents">
+<br/>  
 
- 
-  It is basic certification for candidates looking to certify their Tally Skill Set,
+
+#### Course Information
+
+
+It is basic certification for candidates looking to certify their Tally Skill Set,
   TallyACE will open up miltiple career opportunities in the fields of *Banking, manufacturing, Sales & Marketing as well as entrepreneur ship to name a few*:
  
  - Fundamental on Accounting
@@ -133,24 +130,26 @@ import { Divider } from "theme-ui";
  - Maintaining GST compliant records using   Tally.ERP9
 
 
-   </Card.Text>
-   </Card.Body>
-   </Card>
-</Tab>
 
-<Tab label="Scope">
-<Card border="secondary">
-  <Card.Header>
-    Duration: 60 Hours
-  </Card.Header>
-  <Card.Body>
-    <Card.Title>
+  </div>
+  </div>
+  <label className="nav" for="overviewace">
+    <span>
+      <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" className="css-i6dzq1"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+      Overview
+    </span>
+  </label>
 
-**Scope** 
+  <input name="navace" type="radio" className="about-scopeace" id="scopeace" />
+  <div className="page scopeace-page" style={{ backgroundColor: "#ffffff" }}>
+    <div className="page-contents">
+ <br/>
 
-  </Card.Title>
-    <Card.Text>
-      <Table striped bordered hover>
+#### Scope
+
+
+</div>
+<Table className="tab-table" striped bordered hover>
   <thead>
     <tr>
       <th>Module</th>
@@ -184,65 +183,65 @@ import { Divider } from "theme-ui";
    </tr> 
   </tbody>
 </Table>
-    </Card.Text>
-   </Card.Body>
-</Card>
-</Tab>
-</Tabs>
+  </div>
+  <label className="nav" for="scopeace">
+    <span>
+    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" className="css-i6dzq1"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg>
+    Scope
+      </span>
+    </label>
+</div>
 
 
 ### TallyPRO
 
+**Duration: 120 Hours** 
 
-<Tabs onSelect={(index, label) => console.log(label + ' selected')}>
-<Tab label="Overview">
-    <Card border="secondary">
-    <Card.Header>
-    Duration: 120 Hours
-    </Card.Header>
-    <Card.Body>
-    <Card.Title> 
-    
 
-**Course Information**
+<div className="layout">
+<input name="navpro" type="radio" className="nav overviewpro-radio" id="overviewpro" defaultChecked />
+<div className="page overviewpro-page" style={{ backgroundColor: "#ffffff" }}>
+<div className="page-contents">
+<br/>  
 
-    
-   </Card.Title>
-    <Card.Text>
 
+#### Course Information
+
+
+It is an advanced level certification for candidates aspiring for growth in their careers.
+It certifies a candidate as well versed in working knowledge of Tally like:
  
-  It is an advanced level certification for candidates aspiring for growth in their careers.
-  It certifies a candidate as well versed in working knowledge of Tally like:
- 
- - Recievables & Payable management
- - Accounting transactions
- - E-filling GST returns
- - Managing of financial year end process
- - Storage & Classification of inventory
- - Administration of complete order processing cycle
- - Analysis of MIS reports
- - Management of TDS other than salary
+- Recievables & Payable management
+- Accounting transactions
+- E-filling GST returns
+- Managing of financial year end process
+- Storage & Classification of inventory
+- Administration of complete order processing cycle
+- Analysis of MIS reports
+- Management of TDS other than salary
 
 
-   </Card.Text>
-   </Card.Body>
-   </Card>
-</Tab>
 
-<Tab label="Scope">
-<Card border="secondary">
-  <Card.Header>
-    Duration: 120 Hours
-  </Card.Header>
-  <Card.Body>
-    <Card.Title>
+  </div>
+  </div>
+  <label className="nav" for="overviewpro">
+    <span>
+      <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" className="css-i6dzq1"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+      Overview
+    </span>
+  </label>
 
-**Scope** 
+  <input name="navpro" type="radio" className="about-scopepro" id="scopepro" />
+  <div className="page scopepro-page" style={{ backgroundColor: "#ffffff" }}>
+    <div className="page-contents">
+ <br/>
 
-  </Card.Title>
-    <Card.Text>
-      <Table striped bordered hover>
-  <thead>
+#### Scope
+
+
+</div>
+<Table className="tab-table" striped bordered hover>
+ <thead>
     <tr>
       <th>Module</th>
       <th>Level</th>
@@ -271,61 +270,62 @@ import { Divider } from "theme-ui";
    </tr>
  </tbody>
 </Table>
-    </Card.Text>
-   </Card.Body>
-</Card>
-</Tab>
-</Tabs>
+  </div>
+  <label className="nav" for="scopepro">
+    <span>
+    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" className="css-i6dzq1"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg>
+    Scope
+      </span>
+    </label>
+</div>
+
+
 
 
 ### TallyGURU
 
+**Duration: 180 Hours** 
 
-<Tabs onSelect={(index, label) => console.log(label + ' selected')}>
-<Tab label="Overview">
-    <Card border="secondary">
-    <Card.Header>
-    Duration: 180 Hours
-    </Card.Header>
-    <Card.Body>
-    <Card.Title> 
-    
 
-**Course Information**
+<div className="layout">
+<input name="navguru" type="radio" className="nav overviewguru-radio" id="overviewguru" defaultChecked />
+<div className="page overviewguru-page" style={{ backgroundColor: "#ffffff" }}>
+<div className="page-contents">
+<br/>  
 
-    
-   </Card.Title>
-    <Card.Text>
 
+#### Course Information
+
+
+ It is a comprehensible certification, A candidate with this certificate will be recoganised as an expert in working knowledge of Tally.ERP 9 and proficient in it:
  
-  It is a comprehensible certification, A candidate with this certificate will be recoganised as an expert in working knowledge of Tally.ERP 9 and proficient in it:
- 
- - Principles of Accouting
- - Inventory Management
- - GST taxation system
- - Direct Taxation system
- - Payroll administration
- 
+- Principles of Accouting
+- Inventory Management
+- GST taxation system
+- Direct Taxation system
+- Payroll administration
 
-   </Card.Text>
-   </Card.Body>
-   </Card>
-</Tab>
 
-<Tab label="Scope">
-<Card border="secondary">
-  <Card.Header>
-    Duration: 180 Hours
-  </Card.Header>
-  <Card.Body>
-    <Card.Title>
+  </div>
+  </div>
+  <label className="nav" for="overviewguru">
+    <span>
+      <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" className="css-i6dzq1"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+      Overview
+    </span>
+  </label>
 
-**Scope** 
+  <input name="navguru" type="radio" className="about-scopeguru" id="scopeguru" />
+  <div className="page scopeguru-page" style={{ backgroundColor: "#ffffff" }}>
+    <div className="page-contents">
+ <br/>
 
-  </Card.Title>
-    <Card.Text>
-      <Table striped bordered hover>
-  <thead>
+#### Scope
+
+
+</div>
+<Table className="tab-table" striped bordered hover>
+ <thead>
     <tr>
       <th>Module</th>
       <th>Level</th>
@@ -358,11 +358,16 @@ import { Divider } from "theme-ui";
    </tr>
  </tbody>
 </Table>
-    </Card.Text>
-   </Card.Body>
-</Card>
-</Tab>
-</Tabs>
+  </div>
+  <label className="nav" for="scopeguru">
+    <span>
+    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" className="css-i6dzq1"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg>
+    Scope
+      </span>
+    </label>
+</div>
+
+
 
 <section id="Benefits">
 

@@ -4,6 +4,7 @@
 @import "layout";
 @import "navbar";
 @import "bard";
+@import "tabs";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&family=Open+Sans&display=swap');
 
 $font-family-heading: 'Nunito', sans-serif;
@@ -95,8 +96,7 @@ h3{
 }
 
 h4{
-  
-  margin-top: 2rem;
+  font-weight: bold;
 }
 
 .breadcrum{
@@ -139,3 +139,5 @@ h4{
   width: 172px;
   height: 100px;
 }
+
+

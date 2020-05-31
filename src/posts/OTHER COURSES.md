@@ -11,7 +11,7 @@ import {Container, Col, Row, Card, Table} from "react-bootstrap";
 import {Divider} from "theme-ui";
 
 <Container>
-<Row>
+<Row noGutters>
 <Col lg={12} sm={12}>
 
 <section id="Professional Courses">
@@ -25,7 +25,7 @@ import {Divider} from "theme-ui";
 </Container>
 
 <Container>
-<Row className="justify-content-center">
+<Row noGutters className="justify-content-center">
 <div class="course-card">
 <Col lg={4} md={6} sm={8} xs={12}>
   <div id="course-container">
@@ -182,7 +182,7 @@ import {Divider} from "theme-ui";
 </Container>
 
 <Container>
-<Row>
+<Row noGutters>
 <Col sm={12}>
 
 <section id="Web Designing">
@@ -196,7 +196,7 @@ import {Divider} from "theme-ui";
 </Container>
 
 <Container>
-<Row className="justify-content-center">
+<Row noGutters className="justify-content-center">
 <div class="course-card">
 <Col lg={4} md={6} sm={8} xs={12}>
   <div id="course-container">
@@ -260,7 +260,7 @@ import {Divider} from "theme-ui";
 </Container>
 
 <Container>
-<Row>
+<Row noGutters>
 <Col sm={12}>
 
 <section id="Crash Courses">
@@ -274,7 +274,7 @@ import {Divider} from "theme-ui";
 </Container>
 
 <Container>
-<Row className="justify-content-center">
+<Row noGutters className="justify-content-center">
 <Col sm={12}>
 <Card>
     <Card.Img variant="top" style={{height: "350px"}} src="https://i.ytimg.com/vi/RU1u-js7db8/maxresdefault.jpg" />

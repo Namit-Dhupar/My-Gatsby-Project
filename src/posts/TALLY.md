@@ -7,8 +7,7 @@ id: 6
 resizable: false
 ---
 
-import { Container, Row, Col, Card, Table } from "react-bootstrap";
-import { Tabs, Tab } from 'react-bootstrap-tabs';
+import { Card, Table } from "react-bootstrap";
 import { Divider } from "theme-ui";
 
 <section id="Why Tally">

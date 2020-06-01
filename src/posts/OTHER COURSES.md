@@ -26,14 +26,14 @@ import {Divider} from "theme-ui";
 
 <Container>
 <Row noGutters className="justify-content-center">
-<div class="course-card">
+<div className="course-card">
 <Col lg={4} md={6} sm={8} xs={12}>
   <div id="course-container">
-  <div class="funda-img"></div>
-  <h1 class="funda">
+  <div className="funda-img"></div>
+  <h1 className="funda">
     Fundamental in Software
   </h1>
-  <div class="description">
+  <div className="description">
 
 
 - Fundametals
@@ -46,9 +46,9 @@ import {Divider} from "theme-ui";
 
 
   </div>
-   <footer class="funda-footer">
+   <footer className="funda-footer">
    Duration:
-   <div class="footer-text">
+   <div className="footer-text">
    4 Months
    </div>
   </footer>
@@ -56,14 +56,14 @@ import {Divider} from "theme-ui";
 </Col>
 </div>
 
-<div class="course-card">
+<div className="course-card">
 <Col lg={4} md={6} sm={8} xs={12}>
   <div id="course-container">
-  <div class="dtp-img"></div>
-  <h1 class="dtp">
+  <div className="dtp-img"></div>
+  <h1 className="dtp">
     Desktop Publishing
   </h1>
-  <div class="description">
+  <div className="description">
 
 
 - Fundametals
@@ -78,9 +78,9 @@ import {Divider} from "theme-ui";
 
 
   </div>
-   <footer class="dtp-footer">
+   <footer className="dtp-footer">
    Duration:
-   <div class="footer-text">
+   <div className="footer-text">
    4 Months
    </div>
   </footer>
@@ -88,14 +88,14 @@ import {Divider} from "theme-ui";
 </Col>
 </div>
 
-<div class="course-card">
+<div className="course-card">
 <Col lg={4} md={6} sm={8} xs={12}>
   <div id="course-container">
-  <div class="fin-img"></div>
-  <h1 class="fin">
+  <div className="fin-img"></div>
+  <h1 className="fin">
     Financial Accounting
   </h1>
-  <div class="description">
+  <div className="description">
 
 
 - Window
@@ -106,9 +106,9 @@ import {Divider} from "theme-ui";
 
 
   </div>
-   <footer class="fin-footer">
+   <footer className="fin-footer">
    Duration:
-   <div class="footer-text">
+   <div className="footer-text">
    4 Months
    </div>
   </footer>
@@ -116,14 +116,14 @@ import {Divider} from "theme-ui";
 </Col>
 </div>
 
-<div class="course-card">
+<div className="course-card">
 <Col lg={4} md={6} sm={8} xs={12}>
   <div id="course-container">
-  <div class="multi-img"></div>
-  <h1 class="multi">
+  <div className="multi-img"></div>
+  <h1 className="multi">
     Multimedia
   </h1>
-  <div class="description">
+  <div className="description">
 
 
 - Photoshop
@@ -137,9 +137,9 @@ import {Divider} from "theme-ui";
 
 
   </div>
-   <footer class="multi-footer">
+   <footer className="multi-footer">
    Duration:
-   <div class="footer-text">
+   <div className="footer-text">
    6 Months
    </div>
   </footer>
@@ -147,14 +147,14 @@ import {Divider} from "theme-ui";
 </Col>
 </div>
 
-<div class="course-card">
+<div className="course-card">
 <Col lg={4} md={6} sm={8} xs={12}>
   <div id="course-container">
-  <div class="cca-img"></div>
-  <h1 class="cca">
+  <div className="cca-img"></div>
+  <h1 className="cca">
     CCA
   </h1>
-  <div class="description">
+  <div className="description">
 
 
 - Windows
@@ -168,9 +168,9 @@ import {Divider} from "theme-ui";
   
 
 </div>
-   <footer class="cca-footer">
+   <footer className="cca-footer">
    Duration:
-   <div class="footer-text">
+   <div className="footer-text">
    6 Months
    </div>
   </footer>
@@ -197,14 +197,14 @@ import {Divider} from "theme-ui";
 
 <Container>
 <Row noGutters className="justify-content-center">
-<div class="course-card">
+<div className="course-card">
 <Col lg={4} md={6} sm={8} xs={12}>
   <div id="course-container">
-  <div class="webi-img"></div>
-  <h1 class="webi">
+  <div className="webi-img"></div>
+  <h1 className="webi">
     Web Designing-I
   </h1>
-  <div class="description">
+  <div className="description">
 
 
 - Photopshop
@@ -217,9 +217,9 @@ import {Divider} from "theme-ui";
   
 
 </div>
-   <footer class="webi-footer">
+   <footer className="webi-footer">
    Duration:
-   <div class="footer-text">
+   <div className="footer-text">
    6 Months
    </div>
   </footer>
@@ -227,14 +227,14 @@ import {Divider} from "theme-ui";
 </Col>
 </div>
 
-<div class="course-card">
+<div className="course-card">
 <Col lg={4} md={6} sm={8} xs={12}>
   <div id="course-container">
-  <div class="webii-img"></div>
-  <h1 class="webii">
+  <div className="webii-img"></div>
+  <h1 className="webii">
     Web Designing-2
   </h1>
-  <div class="description">
+  <div className="description">
 
 
 - IT Tools & Application
@@ -247,9 +247,9 @@ import {Divider} from "theme-ui";
   
 
 </div>
-   <footer class="webii-footer">
+   <footer className="webii-footer">
    Duration:
-   <div class="footer-text">
+   <div className="footer-text">
    1 Year
    </div>
   </footer>

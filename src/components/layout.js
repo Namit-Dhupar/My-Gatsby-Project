@@ -21,10 +21,6 @@ const Layout = ({ children, pageInfo }) => (
     render={data => (
       <>
         <Container fluid className="px-0 main">
-          <Row noGutters className="justify-content-center">
-            <Col>
-            </Col>
-          </Row>
           <Navbar pageInfo={pageInfo} />
           <Row noGutters>
             <Col>
@@ -36,6 +32,46 @@ const Layout = ({ children, pageInfo }) => (
             </Col>
           </Row>
         </Container>
+        
+        <Container fluid className="px-0">
+          <Row noGutters >
+            <Col className="contact">
+              <h1>Contact Us</h1>
+            </Col>
+          </Row>
+        </Container>  
+        <Container style={{ backgroundColor: "#ffffff" }}>
+          <Row style={{ backgroundColor: "#ffffff" }}>
+  <Col lg={6} sm={12} xs={12} style={{ backgroundColor: "#ffffff" }}>
+    <h6>Send a message</h6>
+  <div className="two-grids -contact">
+        <div>
+          <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
+            <div>
+              <input placeholder="name" type="text" name="myname" id="myname"/>
+            </div>
+            <div>
+              <input placeholder="email address" type="email" name="email" id="email"/>
+            </div>
+            <div>
+              <input placeholder="subject" type="text" name="subject" id="subject"/>
+            </div>
+            <div>
+              <textarea placeholder="message" name="message" id="message"></textarea>
+            </div>
+            <div style={{display: "flex", justifyContent: "flex-end"}}>
+              <input type="submit" className="button -primary" style={{marginRight: 0}} />
+            </div>
+          </form>
+        </div>
+      </div>
+  </Col>
+  <Col lg={6} sm={12} xs={12} style={{padding: "0"}}>
+  <iframe title="sbl direction" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.4593495985505!2d77.12819195002713!3d28.645961690138748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0313c5f674a9%3A0x6e9747ac44dc47cc!2sSbl%20Computer%20Education!5e0!3m2!1sen!2sin!4v1591016822494!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false"></iframe>
+  </Col>
+  </Row>
+</Container>
+
         <Container fluid className="px-0">
           <Row noGutters >
             <Col>

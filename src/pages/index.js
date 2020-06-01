@@ -32,7 +32,8 @@ const IndexPage = () => (
       </Row>
     </Container>
     </Jumbotron>
- <h2>Introduction</h2>
+    
+ <h2>Intro</h2>
  <Divider />
     <Carousel>
   <Carousel.Item style={{'height':"400px"}}>

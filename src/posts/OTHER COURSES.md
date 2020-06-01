@@ -14,9 +14,9 @@ import {Divider} from "theme-ui";
 <Row noGutters>
 <Col lg={12} sm={12}>
 
-<section id="Professional Courses">
+<section id="Our Courses">
 
-## Professional Courses
+## Our Courses
 </section>
 <Divider />
 

@@ -105,7 +105,7 @@ const Layout = ({ children, pageInfo }) => (
                   <ul style={{listStyleType: "none"}}>
                     <li style={{marginBottom: "5px"}}><Link style={{color: "white"}} to='/TALLY'>Tally.ERP 9</Link></li>
                     <li style={{marginBottom: "5px"}}><Link style={{color: "white"}} to='/OTHER%20COURSES'>Web Designing</Link></li>
-                    <li style={{marginBottom: "5px"}}><Link style={{color: "white"}} to='/COTHER%20COURSESCC'>Crash Courses in Programming</Link></li>
+                    <li style={{marginBottom: "5px"}}><Link style={{color: "white"}} to='/OTHER%20COURSES'>Crash Courses in Programming</Link></li>
                     <li style={{marginBottom: "5px"}}><Link style={{color: "white"}} to='/OTHER%20COURSES'>Multimedia</Link></li>
                     <li style={{marginBottom: "5px"}}><Link style={{color: "white"}} to='/OTHER%20COURSES'>Software Basics</Link></li>
                     <li style={{marginBottom: "5px"}}><Link style={{color: "white"}} to='/OTHER%20COURSES'>Desktop Publishing</Link></li>

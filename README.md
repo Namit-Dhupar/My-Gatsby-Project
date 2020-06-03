@@ -1,9 +1,10 @@
-# Gatsby React Bootstrap Starter
+# A static Website for a Computer Education Institute based in new Delhi
 
-A GatsbyJS starter that includes
+Core features:
 
-- react-bootstrap
-- react-icons
-- sticky on scroll navbar
-- SASS compiler
-- basic layout
+- Created using GatsbyJS
+- React Framework
+- MDX CMS
+- Mobile Responsive
+
+LINK: https://sbl-education.netlify.app/

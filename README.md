@@ -12,4 +12,4 @@ LINK: https://sbl-education.netlify.app/
 ## Visual Overview:
 
 ![](https://giphy.com/gifs/bruce-lee-Ht2ktUDWebe36)
-<img src="https://gfycat.com/flakyslightamericancicada.gif" width="40" height="40" />
+<img src="https://drive.google.com/file/d/1BCw25uR6S8Hvh1NZgpkIZT2lwsE6-NGs/view?usp=drivesdk" width="40" height="40" />

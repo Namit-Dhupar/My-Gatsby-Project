@@ -12,3 +12,4 @@ LINK: https://sbl-education.netlify.app/
 ## Visual Overview:
 
 ![](https://giphy.com/gifs/bruce-lee-Ht2ktUDWebe36)
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />

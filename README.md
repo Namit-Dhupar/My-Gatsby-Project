@@ -8,3 +8,7 @@ Core features:
 - Mobile Responsive
 
 LINK: https://sbl-education.netlify.app/
+
+## Visual Overview:
+
+![Alt Text](https://imgur.com/ZEntJWE)

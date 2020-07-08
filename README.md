@@ -11,5 +11,5 @@ LINK: https://sbl-education.netlify.app/
 
 ## Visual Overview:
 
-![](https://giphy.com/gifs/bruce-lee-Ht2ktUDWebe36)
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/CyrNPgR" data-context="false" ><a href="//imgur.com/a/CyrNPgR"></a></blockquote>
+![](20200708_230921.gif)
+

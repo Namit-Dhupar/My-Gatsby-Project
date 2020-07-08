@@ -11,4 +11,4 @@ LINK: https://sbl-education.netlify.app/
 
 ## Visual Overview:
 
-![Alt Text](https://imgur.com/ZEntJWE.gif)
+![](https://imgur.com/ZEntJWE.gif)

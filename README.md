@@ -11,4 +11,4 @@ LINK: https://sbl-education.netlify.app/
 
 ## Visual Overview:
 
-![](https://giphy.com/gifs/H4spTl0JPlnC8vpYZN)
+![](https://giphy.com/gifs/H4spTl0JPlnC8vpYZN.gif)
